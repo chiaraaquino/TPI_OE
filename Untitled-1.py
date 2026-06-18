@@ -40,7 +40,7 @@ def ingresar_legajo(empleados):
     while True:
         try:
 
-            legajo = input("Ingresa su legajo: ")
+            legajo = input("Bot: Ingresa su legajo: ")
 
             if legajo == "":
                 raise ValueError("Error: el legajo no puede estar vacio")
@@ -80,3 +80,26 @@ def buscar_empleado(empleados, legajo):
 
     return None
 
+def ingresar_dias():
+
+    while True:
+
+        try:
+
+            dias = input("Bot: Ingresa sus dias: ")
+
+            if dias == "":
+                raise ValueError("Error: los dias no puede estar vacios")
+            
+            if not dias.isdigit():
+                raise ValueError("Error: el numero debe ser entero")
+            
+            dias_a_ingresar = int(dias)
+
+            if dias_a_ingresar <= 0:
+                raise ValueError("Error: el numero debe ser mayor a 0")
+            
+            return dias_a_ingresar
+        
+        except ValueError as e:
+            print(e)
