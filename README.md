@@ -36,5 +36,7 @@ En el caso de ingresar referencias invalidas y/o que no cumplan con las condicio
 # RESTRICCIÓN DE GUARDADO
 El bot almacena una cantidad de días y realiza los descuentos solicitados en un archivo CSV local. La plataforma de mensajeria "Telegram" unicamente guarda el chat, no archivo. Por ello, los cambios no son permanentes si se reinicia el programa. 
 
-# VIDEO DEMOSTRATIVO
-El vídeo añadido al repositorio GitHub permite visualizar la interacción entre el usuario y el bot. Mediante distintas solicitudes, se verifica el adecuado funcionamiento del manejo de errores programado. 
+# ENLACE A VIDEO DEMOSTRATIVO
+El siguiente enlace redirige a un archivo de video en Google Drive, el cual permite visualizar la interacción entre el usuario y el bot. Mediante distintas solicitudes, se verifica el adecuado funcionamiento del manejo de errores programado. 
+
+https://drive.google.com/file/d/1N8Ay-oG8y0tF74eonOKAd03jd7SRqxo-/view?usp=drive_link
